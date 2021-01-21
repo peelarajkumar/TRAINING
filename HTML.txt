@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KING OF CRICKET</title>
+    </head>
+    <style>
+        #body{
+            background-color:wheat;
+            background-size:80% ;
+        }
+        #button{
+            background-color: white;
+            color:yellowgreen;
+            border: 2px solid;
+        }
+        .h1{
+            font-size:3pc ;
+            font-style: normal;
+            text-align: center;
+            color: lightblue;
+            background-color: mediumseagreen;
+        }
+        .h2{
+            font-size: 2pc;
+            font-style: italic;
+            text-align: center;
+            color: tomato;
+            
+        }
+    </style>
+    <body>
+       
+        <center>
+            <h1 class="h1">Virat Kohli</h1>
+            <img src="kohli.jpg" alt="Virat">
+            <p>Virat Kohli (Hindustani: [??'ra?? 'ko??li?] (About this soundlisten); born 5 November 1988) is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world.[3] He plays for Royal Challengers Bangalore in the Indian Premier League (IPL), and has been the team's captain since 2013. Kohli is consistently rated as one of the top-ranked batsmen in the world, according to the ICC Player Rankings. Among Indian batsmen, Kohli has the best ever Test rating (937 points), ODI rating (911 points) and T20I rating (897 points).</p>
+            <h2 class="h2">STATS</h2>
+            <table border="2" align="center" width="500" heigth="300" cellpadding="20">
+                <tr>
+                    <th>FORMAT</th>
+                    <th>100'S</th>
+                    <th>50'S</th>
+                    <th>RANK</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Tests</td>
+                        <td>27</td>
+                        <td>23</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>ODI</td>
+                        <td>43</td>
+                        <td>60</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>T20</td>
+                        <td>0</td>
+                        <td>20</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>IPL</td>
+                        <td>7</td>
+                        <td>58</td>
+                        <td>3</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+            <br><br>
+        <div class="button">
+            <button>MORE RECORDS</button>
+        </div>
+        </center>
+        <ol type="1">
+            <li>Fastest 10000 RUNS</li>
+            <li>Run Machine</li>
+            <li>Highest Runs in ODIS</li>
+            <li>Fair Play Awards</li>
+        </ol>
+        <br>
+        <p> Career Information : TeamsIndia, Delhi, India Red, India U19, Royal Challengers Bangalore, Board Presidents XI, North Zone, Indians, India A, Asia XI</p>
+    </body>
+</html>
