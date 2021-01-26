@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Row and Column Span</title>
+<style>
+    body{
+           background-color: oldlace;
+        
+        }
+
+            table,th,td {
+            border: 2px solid rgb(8, 5, 19);
+            text-align: center;
+            border-collapse: collapse;
+            padding:7px;
+         }
+         .h1{
+             background-color: tomato;
+             font: caption;
+             font-size: 40px;
+             background-origin: padding-box;
+         }
+        .h2{
+            font: caption;
+            font-size: 30px;
+            color: seagreen;
+        }
+</style>
+    </head>
+    <body>
+        <center>
+        <h1 class=h1>Seasons and Holidays</h1></center>
+        <center>
+        <table>
+            <center>
+            <tr>
+                <th>Number</th>
+                <th>Month</th>
+                <th>Days</th>
+                <th>Holidays</th>
+                <th>Season</th>
+                
+                
+
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Jan</td>
+                    <td>31</td>
+                    <td>9</td>
+                    <th rowspan="2" style="color:darkturquoise; font: italic;">Winter</th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Feb</td>
+                    <td>28</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mar</td>
+                    <td>31</td>
+                    <td>10</td>
+                    <td rowspan="4" style="color: crimson;font:italic">Summer</td>
+                    
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>April</td>
+                    <td>30</td>
+                    <td>9</td>
+                    
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>May</td>
+                    <td>31</td>
+                    <td>9</td>
+                 </tr>
+                 <tr>
+                    <td>6</td>
+                    <td>June</td>
+                    <td>30</td>
+                    <td>10</td>
+                 </tr>
+                 <tr>
+                    <td>7</td>
+                    <td>July</td>
+                    <td>31</td>
+                    <td>8</td>
+                    <th rowspan="4" style="color:midnightblue; font:italic">Rainy</th>
+                 </tr>
+                 <tr>
+                    <td>8</td>
+                    <td>August</td>
+                    <td>30</td>
+                    <td>10</td>
+                 </tr>
+                 <tr>
+                    <td>9</td>
+                    <td>Sept</td>
+                    <td>31</td>
+                    <td>10</td>
+                 </tr>
+                 <tr>
+                    <td>10</td>
+                    <td>October</td>
+                    <td>31</td>
+                    <td>11</td>
+                 </tr>
+                 <tr>
+                    <td>11</td>
+                    <td>November</td>
+                    <td>30</td>
+                    <td>9</td>
+                    <th rowspan="2" style="color:darkturquoise; font: italic;">Winter</th>
+                    
+                 </tr>
+                 <tr>
+                    <td>12</td>
+                    <td>December</td>
+                    <td>31</td>
+                    <td>12</td>
+                 </tr>
+                 <tr>
+                    <td style=" color:firebrick;font-size: 20px; background-color:powderblue; border: rgb(8, 5, 19);" colspan="12">Total Holidays : 125</td>
+                 </tr>
+
+            </tbody>
+        </center>
+        </table>
+        <h2 class=h2>Note : Seasons are example for Rowspan & Total Holidays are for ColumnSpan</h2>
+    </center>
+    </body>
+</html>
