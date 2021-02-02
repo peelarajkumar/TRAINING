@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .h1 {
+            font-size: x-large;
+            font-style: italic;
+            color: lightseagreen;
+            background-color: linen;
+        }
+
+        .div1 {
+            font-size: xx-large;
+            font color: black;
+
+            width: 500px;
+            height: 250px;
+            background-color: teal;
+            padding: 3%;
+            border-color: 2px solid black;
+            font border-color: 2px solid black;
+        }
+
+        .div2 {
+            font-size: xx-large;
+            font color: black;
+            width: 500px;
+            height: 250px;
+            background-color: tomato;
+            padding: 3%;
+            border-color: 2px solid black;
+            font border-color: 2px solid black;
+        }
+
+        #button {
+            background-color: lightskyblue;
+        }
+        .foot{
+            font-size:small;
+            text-align: right;
+        }
+
+        @media screen and (max-width:700px) {
+            .div1 {
+                background-color: violet;
+            }
+
+            .div2 {
+                background-color: yellowgreen;
+            }
+
+        }
+
+        @media screen and (max-width: 400px) {
+            .div1 {
+                background-color: skyblue;
+            }
+
+            .div2 {
+                background-color: tomato;
+            }
+
+        }
+
+        @media screen and (max-width: 250px) {
+            .div1 {
+                background-color: yellow;
+            }
+
+            .div2 {
+                background-color: turquoise;
+            }  }
+            @media print{
+       .div2{
+                 display: none;
+              }
+              .foot{
+                  display: none;
+              }
+            }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 class="h1">Media Queries</h1>
+        <div class="div1"> Hello welcome to Div 1 </div>
+        <br>
+        <button>Enter Div 1</button>
+        <br><br>
+        <div class="div2">Good Morning ! Welcome to Div 2</div>
+        <br>
+        <button>Enter Div 2</button>
+</center>
+    <footer class="foot">
+        @ancient_histories
+    </footer>
+</body>
+
+</html>
