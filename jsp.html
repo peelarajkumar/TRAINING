@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>www jsp Demo</title>
+
+<body>
+    <p id="p1"></p>
+    <script>
+        var a = "Raj";
+        let z = 30;
+        var b = null;
+        var c = true;
+        var d = undefined;
+     console.log("Data Types in Jsp ");
+     console.log(typeof(a));
+     console.log(typeof(b));
+     console.log(typeof(c));
+     console.log(typeof(d));
+     console.log(typeof(z));
+
+     console.log("Loops,Conditions")
+     var t = 30;
+     if(t==20){
+         console.log("20");
+     }else{
+         console.log("no");
+     }
+     
+
+     for(let x=0;x<7;x++){
+         console.log(x);
+     }
+
+     console.log("String Functions")
+
+    let x = "Hello";
+    let y = "World";
+    let res = x.concat(" ",y);
+    console.log(res);
+    console.log(res.toLowerCase());
+
+
+
+
+
+        function displayA() {
+
+    console.log(a,b,z);
+}        
+     displayA(); 
+
+     var a = 60;
+     function displayb(){
+         console.log("Outside the obj",window.alert("hello"));
+     }
+     //no obj , so this takes - global a 
+     displayb();
+
+     let obj = {
+         a:70,
+         displayA:function(){
+            
+             console.log("inside the object function",this.a);
+         }
+
+     };
+     //caller is obj , so output is a=70
+     obj.displayA();
+        let p1=document.getElementById("p1");
+        p1.innerHTML = res;
+
+            
+    </script>
+
+</body>
+</head>
+
+</html>
