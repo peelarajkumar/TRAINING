@@ -70,6 +70,49 @@
         let p1=document.getElementById("p1");
         p1.innerHTML = res;
 
+        console.log("Java script functions")
+        
+        function add(a,b)
+        {
+           console.log(a,b,arguments.length)
+           return a+b;
+        }
+        let result = add(7,9);
+        console.log(result);
+
+        function add(){
+            let s=0;
+            for(let i=0;i<arguments.length;i++) {
+            s=s+arguments[i];
+            }
+            return s;
+        }
+        let rs = add(2,9,80,8,43,6);
+        console.log("Addition of the numbers ")
+        console.log(rs);
+
+        console.log("Anonymous Function");
+
+        var a = function(a,b){
+            return a+b;
+        }
+        console.log(a(5,9));
+
+        console.log("Functions as arguments")
+
+        function add(a,b){
+         return a+b;
+        }
+        var vd = add;
+          
+        function getSumby20(a,b,cb){
+        return cb(a,b)+20;
+        }
+
+        let rest = getSumby20(8,10,vd) 
+        console.log(rest);
+
+
             
     </script>
 
